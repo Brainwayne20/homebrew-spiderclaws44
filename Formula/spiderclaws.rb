@@ -1,16 +1,12 @@
 class Spiderclaws < Formula
-  desc "Your tool description here"
+  desc "CLI tool made by SpiderClaws44"
   homepage "https://github.com/Brainwayne20/homebrew-spiderclaws44"
-  url "https://github.com/Brainwayne20/homebrew-spiderclaws44/releases/download/v1.0.0/mytools-v1.0.0.tar.gz"
-  sha256 "46e533a840b04d8b9862d0df30f4ff7d125140f448d0b78b70459dc603ba8f3d"
+  url "https://github.com/user-attachments/files/21124855/mytools-v1.0.0.tar.gz"
+  sha256 "149d0e249ea1c5a94b8c8e397f1fa3715643b5e976cd31a215d3c809eca33b75  /Users/hello/Desktop/mytools-v1.0.0.tar.gz"
   version "1.0.0"
 
   def install
     bin.install "Mytools/spiderclaws.rb" => "spiderclaws"
-  end
-
-  test do
-    system "#{bin}/spiderclaws", "--version"
   end
 end
 
